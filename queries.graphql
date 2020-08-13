@@ -1,0 +1,6 @@
+query GravityQuery {
+  gravatars (first: 1)
+  {
+    id
+  }
+}

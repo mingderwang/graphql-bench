@@ -1,0 +1,11 @@
+- name: gravity
+  warmup_duration: 60
+  duration: 300
+  candidates:
+  - name: gravity-bench
+    url: http://graph.graph-mission-control.muzamint.com/subgraphs/name/jannis/gravity/graphql
+    query: GravityQuery
+    queries_file: queries.graphql
+  rps:
+  - 200
+  - 400
